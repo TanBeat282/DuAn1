@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/radius"
+    android:orientation="vertical">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/primary"
+        android:gravity="center"
+        android:text="đổi tên người dùng"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:id="@+id/edtChangeTenNguoiDung"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/backgourd_login"
+        android:hint="Nhập tên mới"
+        android:textColorHint="#808080" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+
+            android:id="@+id/linearChangeTenNguoiDung"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/backgourd_button"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvChangePass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đổi"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearHuyChangeTenNguoiDung"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/backgourd_button"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tvCancleChangePass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hủy"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
